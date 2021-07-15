@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Input Show</title>
+
+
+</head>
+<body>
+<div>
+  <form>
+        <input id="myInput" type="Text" placeholder="Name">
+  </form>
+        <button onclick="myFunction()">Show</button>
+        <p id="demo"></p>
+  
+</div>
+<a href="home.html">Home</a>
+
+
+
+  <script>
+    function myFunction(){
+      var letter=document.getElementById("myInput").value;
+
+      document.getElementById("demo").innerHTML=letter;
+    }
+  </script>
+
+</body>
+</html>

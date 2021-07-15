@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+
+
+</head>
+<body>
+<div>
+  <form>
+        <input id="myInput" type="Text" placeholder="Name">
+  </form>
+        <button onclick="myFunction()">Show</button>
+        <p id="demo"></p>
+  
+</div>
+<a href="index.html">Index</a>
+
+	<h1>Welcome My Home page</h1>
+
+	<img src="img/arfat.jpg">
+
+
+
+  <script>
+    function myFunction(){
+      var letter=document.getElementById("myInput").value;
+
+      document.getElementById("demo").innerHTML=letter;
+    }
+  </script>
+
+</body>
+</html>
